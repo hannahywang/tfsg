@@ -1,0 +1,45 @@
+/* 
+*Globals 
+*/
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* 
+* NAV BAR 
+*/
+.nav-item, .navbar-brand {
+    font-family: 'Domine', serif;
+    font-size: large;
+    padding-left: 7%;
+    justify-content: stretch;
+}
+.nav-link {
+    color: #e6f7f6;
+}
+.navbar {
+    padding-top: 2%;
+    background: transparent;
+}
+
+.nav-width {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-right {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.navbar.scrolled {
+    background-color: #1e1659 !important;
+    transition: background-color 200ms linear;
+  }
+
