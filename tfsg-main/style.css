@@ -43,3 +43,28 @@ body {
     transition: background-color 200ms linear;
   }
 
+
+/* 
+* Dropdown Menu
+*/
+.pif-dropdown  {
+    color:#fff!important;
+    background: rgba(9, 67, 136, 0.9);
+}
+.dropdown-menu > li > a{
+    color:#fff!important;
+    text-decoration:none;
+}
+/* highlight on hover */
+a:hover{
+   background: rgba(9, 67, 136, 0.9)!important;
+}
+/* dimensions */
+.dropdown-menu{
+    top: 70%;
+    min-width: 80px;
+}
+/* open on hover - make sure to enable the caret if you disable it */
+  ul.mbr-navbar__items li:hover > ul.dropdown-menu {
+    display: block;
+  }
